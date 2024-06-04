@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/categories/{id}/{nama}', [CategoryController::class, 'index']);
+Route::get('/categories', [CategoryController::class, 'index']);
